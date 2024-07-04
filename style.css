@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1a1c19;
+  color: white;
+}
+
+header {
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+header ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  padding: 16px 30px;
+  border: 1px solid white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.brand-name {
+  background-color: rgba(155, 134, 79, 0.2);
+  width: 370px;
+  border: none;
+}
+
+.nav-item:hover {
+  background-color: rgb(228, 218, 218);
+  color: black;
+  transition: 0.5s;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  max-width: 100%;
+  /* padding: 15px; */
+  margin-bottom: 20px;
+}
+
+.card-1 {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(193, 184, 184);
+  color: #342415;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-1 .card-content {
+  margin-bottom: 20px;
+}
+
+/* /// */
+/* card 2 */
+.left {
+  width: 33%;
+  min-height: 800px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 36%);
+}
+
+.card-2 {
+  width: 100%;
+  height: fit-content;
+  background-color: #8f8868;
+  color: #342415;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-2 .card-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-header .card-heading {
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.card-image-1 {
+  height: 600px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/dd77/b915/9bd218bf2e2ad3b90da9abce140d1ba8?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jQSBA5n1zOPJ9jSVy1lzLCYK9yN42MgeDdVgbAIErmMX01w9655k9bxSua8q6S9dXbbD0SSjNUDsRxoDTFMdpXomElhWE2pT5Li2KEiTq-UfUW7JUyGl7Yk9hxFPh5xuqHE6qIIWp47HIKaNNw9610i3rop9JDzgkMYF89aumB8VbuPf1BIFb5wfwx-ZOz~4wizyZEvhoVbVY1TesyOEZR~5PsS8YGFFKCtvKrAVCz9Egk2tOODArHzfFOVOa9kmvQAXjLnRJ6DGK3ZcRqOLCaAdrxGTr3oNkyqIaL2C3PRGZ1rB50G4AIeQX5Jo-ug~aJyr6VbIGMcJ322v9elmUQ__");
+}
+
+.card-image-2 {
+  height: 200px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/7a05/7321/02ecc2f34052f178793eda90e3be1bd3?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OOwbuSaXbX9xbj14AFzHL3BBweaBgb5IMjRmf0~r8e4S8YFXcQlV4X6HcDHsTVUEzmmpnUlHH29IgV2Z7hCBQ2PY3zRBJPbYHie8EzRIXL3-k2uO0hV9rAq1lMcyU~skza7SMoCVRIAzMcjUWTqmgqu2fG-h3gUni~JBqXtY8dqhQGVFzXJdbpvLZFcMJJPuJIbSYKuCq2ysUai8xehsyEa-S98caUwjHa2r9J3yfCULW6GcNTfa88ArG9h-JJRn-ivK4bZhIY3FNXl6h-yjhgZ5vY~KuCc20n9BZ0d3GewwSghk3tPlxlwia5y3bwCsKk35OE9a0Yz5rZ42TZOSfA__");
+}
+
+.right-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image-3 {
+  height: 200px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/bcfd/ff4d/3ab4aa39f45b58c07736be0cbdee0039?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gNNwljG7GlkS4k2FVKj-i5iLN1i7wne~afCXApzRozkAueQriIE8TCSX6CWpN1pktiN3ksztXcTu7pRayvUVukyPBPjB7QcbxxWexHYCiT0fjtYVHhn6NGVGGSQUkikyOy0s6GFr4jHbuMC8ABb3FzxgfJ519C~45wgRIhsoLIg7tEcs1x1MO2fkNPQj1riKj5vHyEOhySG5-4uLPAnCXtBtUdqrWofoaQu2D9fddwPKdR4IU70rtZEYuuq0djNOYkcleeK1X3A2H-PsnQi1qgdTZufKNn9nhv-Z9xQJLi3Zs0RYpkWvhcM0XglikcoOy5MKMJ1NEuudgU7FaRys7Q__");
+}
+
+.card-3 {
+  width: 49%;
+  height: fit-content;
+  background-color: #976c54;
+  color: #342415;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-3 .card-content {
+  margin-bottom: 20px;
+}
+.card-3 .card-content .card-header .heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-3 .card-content .card-header .heading:after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #342415;
+  transition: 300ms;
+}
+
+.card-3 .card-content .card-header .heading:hover:after {
+  width: 35%;
+}
+
+.card-4 {
+  width: 49%;
+  /* height: 600px; */
+  background-color: #b1a48e;
+  color: #342415;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image-4 {
+  background-image: url("https://www.figma.com/file/EJG7TkLezxUaSHTgi2fqIr/image/7926ae8dc1102600cf253f254f2bd57b7b254745");
+  height: 100px;
+  width: 100px;
+  float: right;
+  border-radius: 50%;
+}
+
+.card-4 .card-content {
+  margin-bottom: 20px;
+}
+
+.details {
+  border-top: 3px solid #342415;
+  border-bottom: 3px solid #342415;
+  padding: 10px;
+}
+.details span:nth-child(2) {
+  margin-left: 60px;
+}
+.border {
+  width: 100%;
+  height: 3px;
+  background-color: #342415;
+  margin-top: 4px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 0.5px solid #342415;
+}
